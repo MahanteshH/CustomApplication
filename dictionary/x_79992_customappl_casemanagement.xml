@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="CaseManagement" max_length="40" name="x_79992_customappl_casemanagement" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
