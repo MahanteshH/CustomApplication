@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_79992_customappl.SPPAgeEntry</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SPPAgeEntry</name>
+        <script><![CDATA[var SPPAgeEntry = Class.create();
+SPPAgeEntry.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'SPPAgeEntry'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-30 07:53:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>48601bc7dbb403003ae37befbf96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SPPAgeEntry</sys_name>
+        <sys_package display_value="CustomApplication" source="x_79992_customappl">078d2d32db3003003ae37befbf9619ef</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CustomApplication">078d2d32db3003003ae37befbf9619ef</sys_scope>
+        <sys_update_name>sys_script_include_48601bc7dbb403003ae37befbf96199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-30 07:53:18</sys_updated_on>
+    </sys_script_include>
+</record_update>
